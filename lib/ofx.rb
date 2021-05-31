@@ -37,7 +37,7 @@ module OfxParser
       end
     end
 
-    def respond_to?(meth) #:nodoc:
+    def respond_to?(meth, include_all = false) #:nodoc:
       monetary_method_call?(meth) ? true : super
     end
 
