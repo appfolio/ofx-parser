@@ -1,2 +1,16 @@
-doc
-ri
+# Because this is a gem, ignore Gemfile.lock:
+
+Gemfile.lock
+gemfiles/.bundle/
+gemfiles/*.gemfile.lock
+
+# And because this is Ruby, ignore the following
+# (source: https://github.com/github/gitignore/blob/master/Ruby.gitignore):
+
+*.gem
+.bundle
+coverage
+pkg
+log
+test/tmp
+tmp

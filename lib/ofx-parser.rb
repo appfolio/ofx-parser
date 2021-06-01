@@ -8,8 +8,6 @@ require 'date'
 end
 
 module OfxParser
-  VERSION = '1.1.0.af2'
-
   class OfxParser
 
     # Creates and returns an Ofx instance when given a well-formed OFX document,
